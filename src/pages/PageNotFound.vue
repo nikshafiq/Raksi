@@ -8,7 +8,7 @@
                     <div class="flex flex-col items-center font-philosopher text-white text-center space-y-4 p-4">
                         <div class="flex text-display-lg md:text-display-xl text-primary">
                             <div>4</div>
-                            <img class="h-[80px] md:h-[128px]" src="@/assets/img/logo/raksi_logo.png">
+                            <img class="h-[80px] md:h-[128px]" src="@/assets/img/logo/Raksi-Logo.png">
                             <div>4</div>
                         </div>
                         <h1 class="text-h2 md:text-h1 uppercase">Page Not Found</h1>
