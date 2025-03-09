@@ -1,7 +1,7 @@
-import Navigation from "./Navigation.vue";
+import TopNavigation from "./TopNavigation.vue";
 
 function registerComponents(app) {
-    app.component("navigation", Navigation);
+    app.component("top-navigation", TopNavigation);
 }
 
 export default {
