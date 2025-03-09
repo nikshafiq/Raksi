@@ -11,7 +11,14 @@
                     </div>
                     <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
                         <div class="w-full md:max-w-button p-1 border border-white hover:bg-primary/50">Info Lanjut</div>
-                        <div class="w-full md:max-w-button p-1 bg-primary hover:bg-primary-800 text-white">Dapatkan Sekarang</div>
+                        <a 
+                            href="https://wa.me/message/K5AROQIQQADPA1" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="w-full md:max-w-button p-1 bg-primary hover:bg-primary-800 block text-center"
+                            >
+                            Dapatkan Sekarang
+                        </a>
                     </div>
                 </div>
             </div>

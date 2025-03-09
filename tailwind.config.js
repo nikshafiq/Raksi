@@ -41,7 +41,6 @@ export default {
     },
     width: {
       0: 0,
-      "nav-icon": "1.5rem",
       "call": "3rem",      
       "icon": "3.5rem",
       auto: "auto",
@@ -53,14 +52,12 @@ export default {
     },
     maxWidth: {
       "button" : "200px",
-      "description" : "500px",
       '1/4': '25%',
       '1/2': '50%',
       '3/4': '75%',
     },
     height: {
       0: 0,
-      "nav-icon": "1.5rem",
       "call": "3rem",      
       "icon": "3.5rem",
       "nav": "5rem",
