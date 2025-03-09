@@ -5,9 +5,9 @@
         :style="{ backgroundImage: `url(${parfumBgImage})` }">
             <div class="bg-black bg-opacity-75 h-full">
                 <div class="h-full flex flex-wrap items-center justify-center">
-                    <div class="flex flex-col items-center font-philosopher text-white text-center space-y-4 p-4">
+                    <div class="flex flex-col items-center font-philosopher text-white text-center space-y-1 p-1">
                         <!-- <img class="max-h-[256px]" src="@/assets/img/logo/Raksi-Logo.png"> -->
-                        <div class="flex flex-col justify-center items-center md:flex-row text-display-lg md:text-display-xl text-primary uppercase md:gap-16">
+                        <div class="flex flex-col justify-center items-center md:flex-row text-display-lg md:text-display-xl text-primary uppercase md:gap-4">
                             <div class="flex">
                                 <div>C</div>
                                 <img class="h-[80px] md:h-[128px]" src="@/assets/img/logo/Raksi-Logo.png">
@@ -16,7 +16,7 @@
                             <div class="flex">
                                 <div>S</div>
                                 <img class="h-[80px] md:h-[128px]" src="@/assets/img/logo/Raksi-Logo.png">
-                                <img class="h-[80px] md:h-[128px] -ml-2" src="@/assets/img/logo/Raksi-Logo.png">
+                                <img class="h-[80px] md:h-[128px] -ml-0.5" src="@/assets/img/logo/Raksi-Logo.png">
                                 <div>n</div>
                             </div>
                         </div>
