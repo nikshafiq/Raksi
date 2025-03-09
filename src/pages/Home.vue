@@ -4,7 +4,7 @@
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
         :style="{ backgroundImage: `url(${rasianBgImage})` }">
             <div class="bg-black bg-opacity-75 h-full pt-nav">
-                <div class="container h-full flex flex-col items-center justify-between font-philosopher text-white text-center p-2">
+                <div class="container mx-auto h-full flex flex-col items-center justify-between font-philosopher text-white text-center p-2">
                     <div class="flex flex-col items-center justify-center gap-1">
                         <div class="text-h2 md:text-h1">Memperkenalkan : RASIAN</div>
                         <div class="mx-auto md:max-w-description">Wangian pertama keluaran Raksi: Rasian mendapat inspirasi daripada seorang pemuda yang mendapat alamat dari mimpimya lalu merempuh keluar dari relung selesanya.</div>
@@ -22,7 +22,7 @@
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
         :style="{ backgroundImage: `url(${parfumBgImage})` }">
             <div class="bg-black bg-opacity-75 h-full pt-nav">
-                <div class="container h-full flex flex-col items-center justify-center font-philosopher text-white text-center gap-2 p-2">
+                <div class="container mx-auto h-full flex flex-col items-center justify-center font-philosopher text-white text-center gap-2 p-2">
                     <div class="flex flex-col items-center justify-center gap-1">
                         <div class="text-h2 md:text-h1">RAKSI : SENI WANGIAN AGUNG</div>
                         <div class="mx-auto md:max-w-description">Membawa maksud wangian, sesuatu yang harum atau bau-bauan.</div>
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </section>
-        
+
     </layout-default>
 </template>
   
