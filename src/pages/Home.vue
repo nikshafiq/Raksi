@@ -10,17 +10,11 @@
                         <div class="mx-auto md:max-w-description">Wangian pertama keluaran Raksi: Rasian mendapat inspirasi daripada seorang pemuda yang mendapat alamat dari mimpinya lalu merempuh keluar dari relung selesanya.</div>
                     </div>
                     <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
-                        <router-link to="/rasian" class="w-full md:max-w-button p-1 border border-white hover:bg-primary/50">
-                            Info Lanjut
-                        </router-link>
-                        <a 
-                            href="https://wa.me/60134982001?text=Hi%2C%20saya%20berminat%20untuk%20dapatkan%20Rasian%20keluaran%20Raksi." 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            class="w-full md:max-w-button p-1 bg-primary hover:bg-primary-800 block text-center"
-                            >
-                            Dapatkan Sekarang
-                        </a>
+                        <ra-button routeTo="/rasian" type="outline" label="Info Lanjut"/>
+                        <ra-button 
+                            buttonUrl="https://wa.me/60134982001?text=Hi%2C%20saya%20berminat%20untuk%20dapatkan%20Rasian%20keluaran%20Raksi."
+                            type="primary" 
+                            label="Dapatkan Sekarang"/>
                     </div>
                 </div>
             </div>
@@ -37,9 +31,7 @@
                         <div class="mx-auto md:max-w-description">Membawa maksud wangian, sesuatu yang harum atau bau-bauan.</div>
                     </div>
                     <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
-                        <router-link to="/tentang-kami" class="w-full md:max-w-button p-1 border border-white hover:bg-primary/50">
-                            Info Lanjut
-                        </router-link>
+                        <ra-button routeTo="/tentang-kami" type="outline" label="Info Lanjut"/>
                     </div>
                 </div>
             </div>
