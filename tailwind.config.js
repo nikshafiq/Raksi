@@ -42,7 +42,7 @@ export default {
     width: {
       0: 0,
       "call": "3rem",      
-      "icon": "3.5rem",
+      "icon": "2.5rem",
       auto: "auto",
       full: "100%",
       screen: "100vw",
@@ -59,7 +59,7 @@ export default {
     height: {
       0: 0,
       "call": "3rem",      
-      "icon": "3.5rem",
+      "icon": "2.5rem",
       "nav": "5rem",
       "hero-banner": "600px",
       "hero-banner-lg": "700px",
@@ -69,6 +69,7 @@ export default {
     },
     spacing: {
       0: "0",
+      "0.25": "0.25rem",
       "0.5": "0.5rem",
       "0.75": "0.75rem",
       1: "1rem",

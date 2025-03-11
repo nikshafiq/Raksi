@@ -11,12 +11,12 @@ const router = createRouter({
     ),
     routes : [
         {
-            path: '/home',
+            path: '/',
             component: Home,
             meta: { title: 'Raksi'}
         },
         {
-            path: '/',
+            path: '/coming-soon',
             component: ComingSoon,
             meta: { title: 'Coming Soon | Raksi'}
         },
