@@ -20,43 +20,39 @@
                 </div>  
             </div>
         </nav>
-        <div class="pt-nav w-full h-full flex flex-col bg-white">
+        <div class="pt-nav w-full flex flex-col bg-white">
             <div id="menu-list" class="flex flex-col font-philosopher uppercase w-full h-full px-2 py-2.5">
 
-                <a href="/" class="py-1 text-black">Home</a>
-                <a href="/rasian" class="py-1 text-black">Rasian</a>
-                <a href="/tentang-kami" class="py-1 text-black">Tentang Kami</a>
-
-                <!-- <router-link
-                to="/"
-                :class="[
-                    navActive === 'Home'
-                    ? 'text-primary'
-                    : 'text-black'
-                ]"
-                class="py-1">
-                    Raksi
-                </router-link>
-                <router-link
-                to="/"
-                :class="[
-                    navActive === 'Rasian'
-                    ? 'text-primary'
-                    : 'text-black'
-                ]"
-                class="py-1">
+                <a 
+                    href="/" 
+                    :class="[
+                        navActive === 'Home'
+                        ? 'text-primary'
+                        : 'text-black'
+                    ]"
+                    class="py-1">
+                    Home
+                </a>
+                <a 
+                    href="/rasian" 
+                    :class="[
+                        navActive === 'Rasian'
+                        ? 'text-primary'
+                        : 'text-black'
+                    ]"
+                    class="py-1">
                     Rasian
-                </router-link>
-                <router-link
-                to="/"
-                :class="[
-                    navActive === 'Tentang Kami'
-                    ? 'text-primary'
-                    : 'text-black'
-                ]"
-                class="py-1">
+                </a>
+                <a 
+                    href="/tentang-kami" 
+                    :class="[
+                        navActive === 'Tentang Kami'
+                        ? 'text-primary'
+                        : 'text-black'
+                    ]"
+                    class="py-1">
                     Tentang Kami
-                </router-link> -->
+                </a>
 
             </div>
             <div id="utility" class="flex flex-col items-center justify-center w-full px-2 py-1.25 gap-1 border-t border-primary-100">
