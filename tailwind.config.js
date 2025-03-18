@@ -55,12 +55,14 @@ export default {
       '1/4': '25%',
       '1/2': '50%',
       '3/4': '75%',
+      "description": '600px',
     },
     height: {
       0: 0,
       "call": "3rem",      
       "icon": "2.5rem",
       "nav": "5rem",
+      "nav-desktop": "7.5rem",
       "hero-banner": "600px",
       "hero-banner-lg": "700px",
       auto: "auto",
@@ -79,6 +81,7 @@ export default {
       4: "4rem",
       5: "5rem",
       "nav": "5rem",
+      "nav-desktop": "7.5rem",
     },
     extend: {
       fontFamily: {
