@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed z-20 inset-0 bg-black/20 backdrop-blur">
+    <div class="fixed z-20 w-full h-screen mx-auto flex bg-black/50 backdrop-blur flex flex-col">
         <nav class="fixed z-30 w-full h-nav text-primary font-philosopher uppercase bg-white shadow-lg">
             <div class="container mx-auto flex h-full items-center justify-between gap-0.5 px-1 md:p-0.5">
                 <div class="w-call">
@@ -20,38 +20,44 @@
                 </div>  
             </div>
         </nav>
-        <div class="w-full pt-nav bg-white">
-            <div id="menu-list" class="flex flex-col font-philosopher uppercase w-full px-2 py-2.5">
-                <router-link
+        <div class="pt-nav w-full h-full flex flex-col bg-white">
+            <div id="menu-list" class="flex flex-col font-philosopher uppercase w-full h-full px-2 py-2.5">
+
+                <a href="/" class="py-1 text-black">Home</a>
+                <a href="/rasian" class="py-1 text-black">Rasian</a>
+                <a href="/tentang-kami" class="py-1 text-black">Tentang Kami</a>
+
+                <!-- <router-link
                 to="/"
                 :class="[
-                    'py-1',
                     navActive === 'Home'
                     ? 'text-primary'
                     : 'text-black'
-                ]">
+                ]"
+                class="py-1">
                     Raksi
                 </router-link>
                 <router-link
                 to="/"
                 :class="[
-                    'py-1',
                     navActive === 'Rasian'
                     ? 'text-primary'
                     : 'text-black'
-                ]">
+                ]"
+                class="py-1">
                     Rasian
                 </router-link>
                 <router-link
                 to="/"
                 :class="[
-                    'py-1',
                     navActive === 'Tentang Kami'
                     ? 'text-primary'
                     : 'text-black'
-                ]">
+                ]"
+                class="py-1">
                     Tentang Kami
-                </router-link>
+                </router-link> -->
+
             </div>
             <div id="utility" class="flex flex-col items-center justify-center w-full px-2 py-1.25 gap-1 border-t border-primary-100">
                 <div class="class flex justify-center">
@@ -79,5 +85,9 @@
 <script>
 export default {
     name: 'MobileNavigation',
+    props: [
+        "navActive",
+        "showMobileNavigation"
+    ],
 };
 </script>
