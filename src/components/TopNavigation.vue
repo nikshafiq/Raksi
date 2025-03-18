@@ -1,15 +1,23 @@
 <template>
+    <mobile-navigation 
+        v-if="showMobileMenu"
+        @close="showMobileMenu=false"
+    />
     <nav 
     :class="[
-        'fixed top-0 w-full z-50 transition-all duration-300 h-nav md:h-nav-desktop text-primary font-philosopher uppercase',
+        'fixed top-0 w-full z-10 transition-all duration-300 h-nav md:h-nav-desktop text-primary font-philosopher uppercase',
         isScrolled ? 'bg-white shadow-lg' : 'bg-transparent',
     ]">
         <div class="container mx-auto flex md:flex-col h-full items-center justify-between md:justify-center gap-0.5 px-1 md:p-0.5">
             <div class="md:hidden w-call">
-                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="w-[20px]" fill="none" viewBox="0 0 18 16">
-                    <path d="M1 .5a.5.5 0 100 1h15.71a.5.5 0 000-1H1zM.5 8a.5.5 0 01.5-.5h15.71a.5.5 0 010 1H1A.5.5 0 01.5 8zm0 7a.5.5 0 01.5-.5h15.71a.5.5 0 010 1H1a.5.5 0 01-.5-.5z" fill="currentColor">
-                    </path>
-                </svg>
+                <button 
+                class="flex flex-wrap w-full h-full items-center justify-center"
+                @click="showMobileMenu = true">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="w-[20px]" fill="none" viewBox="0 0 18 16">
+                        <path d="M1 .5a.5.5 0 100 1h15.71a.5.5 0 000-1H1zM.5 8a.5.5 0 01.5-.5h15.71a.5.5 0 010 1H1A.5.5 0 01.5 8zm0 7a.5.5 0 01.5-.5h15.71a.5.5 0 010 1H1a.5.5 0 01-.5-.5z" fill="currentColor">
+                        </path>
+                    </svg>
+                </button>
             </div>
             <div class="flex justify-center items-center">
                 <img class="h-icon" src="@/assets/img/logo/Raksi-Logo.png">
@@ -60,6 +68,7 @@ export default {
     data() {
         return {
         isScrolled: false, // Tracks if the user has scrolled down
+        showMobileMenu: false, // Hide menu for movile view
         };
     },
     mounted() {
