@@ -3,6 +3,7 @@ import { createWebHistory, createRouter } from 'vue-router';
 import Home from '@/pages/Home.vue';
 
 import Rasian from '@/pages/Rasian.vue';
+import HauriAyangan from '@/pages/HauriAyangan.vue';
 
 import ComingSoon from '@/pages/ComingSoon.vue';
 import PageNotFound from '@/pages/PageNotFound.vue'
@@ -21,6 +22,11 @@ const router = createRouter({
             path: '/rasian',
             component: Rasian,
             meta: { title: 'Rasian | Raksi'}
+        },
+        {
+            path: '/hauri-ayangan',
+            component: HauriAyangan,
+            meta: { title: 'HauriAyangan | Raksi'}
         },
         {
             path: '/coming-soon',

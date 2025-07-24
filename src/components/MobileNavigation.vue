@@ -44,14 +44,14 @@
                     Rasian
                 </a>
                 <a 
-                    href="/tentang-kami" 
+                    href="/hauri-ayangan" 
                     :class="[
-                        navActive === 'Tentang Kami'
+                        navActive === 'Hauri Ayangan'
                         ? 'text-primary'
                         : 'text-black'
                     ]"
                     class="py-1">
-                    Tentang Kami
+                    Hauri Ayangan
                 </a>
 
             </div>

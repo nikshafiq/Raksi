@@ -48,14 +48,14 @@
                     Rasian
                 </router-link>
                 <router-link
-                to="/tentang-kami"
+                to="/hauri-ayangan"
                 :class="[
                     'px-0.5 py-0.25',
-                    navActive === 'Tentang Kami'
+                    navActive === 'Hauri Ayangan'
                     ? 'border-b-2'
                     : 'hover:border-b-2'
                 ]">
-                    Tentang Kami
+                    Hauri Ayangan
                 </router-link>
             </div>
         </div>
