@@ -31,7 +31,7 @@
                         : 'text-black'
                     ]"
                     class="py-1">
-                    Home
+                    Raksi
                 </a>
                 <a 
                     href="/rasian" 
