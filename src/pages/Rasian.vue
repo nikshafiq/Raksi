@@ -1,0 +1,56 @@
+<template>
+    <layout-default>
+        <section 
+        class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
+        :style="{ backgroundImage: `url(${rasianBgImage})` }">
+            <div class="bg-black bg-opacity-50 h-full pt-nav">
+                <div class="container mx-auto h-full flex flex-col items-center justify-between font-philosopher text-white text-center p-2">
+                    <div class="flex flex-col items-center justify-center gap-1">
+                        <div class="text-h2 md:text-h1">Memperkenalkan : RASIAN</div>
+                        <div class="mx-auto md:max-w-description">Wangian pertama keluaran Raksi: Rasian mendapat inspirasi daripada seorang pemuda yang mendapat alamat dari mimpinya lalu merempuh keluar dari relung selesanya.</div>
+                    </div>
+                    <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
+                        <ra-button routeTo="/rasian" type="outline" label="Info Lanjut"/>
+                        <ra-button 
+                            buttonUrl="https://wa.me/60134982001?text=Hi%2C%20saya%20berminat%20untuk%20dapatkan%20Rasian%20keluaran%20Raksi."
+                            type="primary" 
+                            label="Dapatkan Sekarang"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section 
+        class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
+        :style="{ backgroundImage: `url(${parfumBgImage})` }">
+            <div class="bg-black bg-opacity-50 h-full pt-nav">
+                <div class="container mx-auto h-full flex flex-col items-center justify-center font-philosopher text-white text-center gap-2 p-2">
+                    <div class="flex flex-col items-center justify-center gap-1">
+                        <div class="text-h2 md:text-h1">RAKSI : SENI WANGIAN AGUNG</div>
+                        <div class="mx-auto md:max-w-description">Membawa maksud wangian, sesuatu yang harum atau bau-bauan.</div>
+                    </div>
+                    <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
+                        <ra-button routeTo="/tentang-kami" type="outline" label="Info Lanjut"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </layout-default>
+</template>
+  
+<script>
+import rasianBgImage from '@/assets/img/bg/rasian.jpg';
+import parfumBgImage from '@/assets/img/bg/parfum-bg.jpg';
+
+export default {
+    name: 'Rasian',
+    data() {
+        return {
+        rasianBgImage,
+        parfumBgImage,
+        }
+    },
+}
+</script>

@@ -1,5 +1,13 @@
 <template>
     <layout-default>
+        <popup-screen 
+            v-if="showPopup" 
+            @close="showPopup = false"
+            popupTitle="Pengumuman"
+            closeButton="True">
+            <!-- Your content goes here -->
+             <img src="@/assets/img/photo/hauri-ayangan-launch.png" alt="">
+        </popup-screen>
         <section 
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
         :style="{ backgroundImage: `url(${rasianBgImage})` }">
@@ -50,6 +58,7 @@ export default {
         return {
         rasianBgImage,
         parfumBgImage,
+        showPopup: true,
         }
     },
 }

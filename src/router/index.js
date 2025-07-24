@@ -27,7 +27,7 @@ const router = createRouter({
             meta: { title: 'Page not Found | Raksi'}
         },
     ],
-    scrollBehaviour(to, from, savedPosition) {
+    scrollBehavior(to, from, savedPosition) {
         return { top: 0 } //always scroll to top
     },
 });
