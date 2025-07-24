@@ -1,6 +1,6 @@
 <template>
     <div class="fixed z-30 w-full md:w-container mx-auto p-1 inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur font-philosopher">
-        <div class="text-base flex flex-col p-1 w-full md:max-w-1/2 space-y-1 bg-primary-950 border border-primary-500 rounded-lg shadow text-white text-center text-sm">
+        <div class="text-base flex flex-col p-1 w-full md:max-w-description space-y-1 bg-primary-950 border border-primary-500 rounded-lg shadow text-white text-center text-sm">
             <div class="text-lg text-white font-bold text-center text-lg">{{ popupTitle }}</div>
             <slot></slot>
             <button 
