@@ -20,7 +20,7 @@
                     <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
                         <ra-button routeTo="/hauri-ayangan" type="outline" label="Info Lanjut"/>
                         <ra-button 
-                            buttonUrl="https://wa.me/60134982001?text=Hi%2C%20saya%20berminat%20untuk%20dapatkan%20Rasian%20keluaran%20Raksi."
+                            buttonUrl="https://wa.me/60134982001?text=Hi%2C%20saya%20berminat%20untuk%20dapatkan%20Hauri%20Ayangan%20keluaran%20Raksi."
                             type="primary" 
                             label="Dapatkan Sekarang"/>
                     </div>
