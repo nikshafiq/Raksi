@@ -80,7 +80,7 @@ export default {
         hauriAyanganBgImage,
         rasianBgImage,
         parfumBgImage,
-        showPopup: true,
+        showPopup: false,
         }
     },
 }
