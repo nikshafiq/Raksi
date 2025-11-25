@@ -18,6 +18,9 @@
                         <a href="https://www.instagram.com/raksiatelier/" target="_blank" rel="noopener noreferrer">
                             <img class="w-call" src="@/assets/img/icon/Instagram.png" alt="Instagram">
                         </a>
+                        <a href="https://www.tiktok.com/@nik.shafiq95" target="_blank" rel="noopener noreferrer">
+                            <img class="w-call" src="@/assets/img/icon/TikTok.png" alt="TikTok">
+                        </a>
                         <!-- Copy paste more social media here -->
                     </div>
                 </div>
