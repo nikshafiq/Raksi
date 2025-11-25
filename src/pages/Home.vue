@@ -3,10 +3,10 @@
         <popup-screen 
             v-if="showPopup" 
             @close="showPopup = false"
-            popupTitle="Pengumuman"
+            popupTitle=""
             closeButton="True">
             <!-- Your content goes here -->
-             <img src="@/assets/img/photo/hauri-ayangan-launch.png" alt="">
+             <img src="@/assets/img/photo/jualan-akhir-tahun-2025.png" alt="">
         </popup-screen>
         <section 
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
@@ -80,7 +80,7 @@ export default {
         hauriAyanganBgImage,
         rasianBgImage,
         parfumBgImage,
-        showPopup: false,
+        showPopup: true,
         }
     },
 }
