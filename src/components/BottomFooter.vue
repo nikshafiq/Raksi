@@ -8,10 +8,10 @@
                         <div class="text-center text-primary text-h3 md:text-h2 font-philosopher uppercase">Raksi</div>
                     </div>
                     <div class="text-center">
-                        Wangian Agung buatan Malaysia, sejak 2025.
+                        High Perfumery from Malaysia, founded in 2025.
                     </div>
                     <div class="text-center">
-                        IKUTI KAMI untuk info eksklusif dan terkini:
+                        FOLLOW US on our social media for latest info:
                     </div>
 
                     <div class="flex items-center justify-center gap-2 mb-1">
@@ -28,8 +28,8 @@
                 <div>customer service</div>
                 <div>legal</div> -->
             </div>
-            <div>Hakcipta terpelihara. &copy; {{ new Date().getFullYear() }} Raksi Atelier. </div>
-            <div class="text-white/5 text-sm">
+            <div>All right reserved. &copy; {{ new Date().getFullYear() }} Raksi Atelier. </div>
+            <div class="text-white/10 text-sm">
                 Design & developed by 
                 <a href="https://www.khairulazry.com" target="_blank" rel="noopener noreferrer" class="underline">Khairul Azry</a>.
             </div>

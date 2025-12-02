@@ -6,7 +6,7 @@
             <button 
                 v-if="closeButton === 'True'"
                 class="w-full" @click="$emit('close')">
-                <ra-button type="primary" label="Tutup" class="mx-auto"/>
+                <ra-button type="primary" label="Close" class="mx-auto"/>
             </button>
         </div>
     </div>
