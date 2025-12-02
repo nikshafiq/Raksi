@@ -30,7 +30,7 @@
             <div class="bg-black bg-opacity-50 h-full pt-nav">
                 <div class="container mx-auto h-full flex flex-col items-center justify-center font-philosopher text-white text-center gap-2 p-2">
                     <div class="flex flex-col items-center justify-center gap-1">
-                        <div class="text-h3 md:text-h1">RAKSI : The Scent of Unwritten Chapters</div>
+                        <div class="text-h3 md:text-h1 uppercase">RAKSI : The Scent of Unwritten Chapters</div>
                         <div class="mx-auto md:max-w-description text-base">Combination the story from dreams & books with the natural ingredients and establishes a luxurious, artistic tone.</div>
                     </div>
                     <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
