@@ -11,7 +11,7 @@
                         High Perfumery from Malaysia, founded in 2025.
                     </div>
                     <div class="text-center">
-                        FOLLOW US on our social media for latest info:
+                        FOLLOW US for exclusive news and updates:
                     </div>
 
                     <div class="flex items-center justify-center gap-2 mb-1">
