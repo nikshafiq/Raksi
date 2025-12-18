@@ -4,11 +4,11 @@
         @close="showMobileMenu=false"
     />
     <nav 
-    class="fixed top-0 w-full z-10 transition-all duration-300 h-nav  text-primary font-philosopher uppercase py-1 px-1">
+    class="fixed top-0 w-full z-10 transition-all duration-300 h-nav text-primary font-philosopher uppercase py-1 px-1">
         <div 
         :class="[
-            'container mx-auto flex h-full items-center justify-between md:justify-center gap-0.5 px-1 md:p-0.5 rounded-full bg-white/10 border border-white/10',
-            isScrolled ? 'backdrop-blur-md' : 'backdrop-blur-sm',
+            'container mx-auto flex h-full items-center justify-between md:justify-center gap-0.5 px-1 md:p-0.5 rounded-full border border-white/5',
+            isScrolled ? 'bg-black/10 backdrop-blur-md' : 'backdrop-blur-sm',
         ]">
             <div class="md:hidden w-call">
                 <button 
@@ -26,51 +26,37 @@
                 <img class="h-icon" src="@/assets/img/logo/Raksi-Logo.png">
                 <div class="text-center text-h2 uppercase">Raksi</div>
             </router-link>
-            <!-- <div class="flex justify-center items-center">
-                <img class="h-icon" src="@/assets/img/logo/Raksi-Logo.png">
-                <div class="text-center text-h2 uppercase">Raksi</div>
-            </div> -->
             <div class="md:hidden w-call">
                 <!-- menu -->
             </div>
-            <div class="hidden md:flex w-full items-center justify-end text-lg gap-2">
-                <!-- <router-link
-                to="/"
-                :class="[
-                    'px-0.5 py-0.25',
-                    navActive === 'Home'
-                    ? 'border-b-2'
-                    : 'hover:border-b-2'
-                ]">
-                    Raksi
-                </router-link> -->
+            <div class="hidden md:flex w-full items-center justify-end text-lg gap-0.5">
                 <router-link
                 to="/rasian"
                 :class="[
-                    'px-0.5 py-0.25',
+                    'px-1 py-0.25 rounded-full',
                     navActive === 'Rasian'
                     ? 'border-b-2'
-                    : 'hover:border-b-2'
+                    : 'hover:backdrop-blur-md hover:bg-primary hover:border-white/25 hover:text-white'
                 ]">
                     Rasian
                 </router-link>
                 <router-link
                 to="/hauri-ayangan"
                 :class="[
-                    'px-0.5 py-0.25',
+                    'px-1 py-0.25 rounded-full',
                     navActive === 'Hauri Ayangan'
                     ? 'border-b-2'
-                    : 'hover:border-b-2'
+                    : 'hover:backdrop-blur-md hover:bg-primary hover:border-white/25 hover:text-white'
                 ]">
                     Hauri Ayangan
                 </router-link>
                 <router-link
                 to="/rahasia-perindu"
                 :class="[
-                    'px-0.5 py-0.25',
+                    'px-1 py-0.25 rounded-full',
                     navActive === 'Rahasia Perindu'
                     ? 'border-b-2'
-                    : 'hover:border-b-2'
+                    : 'hover:backdrop-blur-md hover:bg-primary hover:border-white/25 hover:text-white'
                 ]">
                     Rahasia Perindu
                 </router-link>

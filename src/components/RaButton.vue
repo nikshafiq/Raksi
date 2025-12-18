@@ -4,10 +4,10 @@
     class="w-full md:max-w-button p-1 text-white backdrop-blur-sm rounded-full"
     :class="[
         type === 'primary'
-            ? 'bg-primary/25 hover:bg-primary/50 border border-primary/25'
+            ? 'bg-primary/5 hover:bg-primary/25 border border-primary/25'
             : '',
         type === 'outline'
-            ? ' border border-white/25 hover:bg-white/50' 
+            ? ' border border-white/5 hover:bg-white/25' 
             : '',
     ]">
         {{ label }}
@@ -19,10 +19,10 @@
         class="w-full md:max-w-button p-1 text-white backdrop-blur-sm rounded-full"
         :class="[
             type === 'primary'
-                ? 'bg-primary/25 hover:bg-primary/50 border border-primary/25'
+                ? 'bg-primary/5 hover:bg-primary/25 border border-primary/25'
                 : '',
             type === 'outline'
-                ? ' border border-white/25 hover:bg-white/50' 
+                ? ' border border-white/5 hover:bg-white/25' 
                 : '',
         ]"
         >
@@ -32,10 +32,10 @@
         class="w-full md:max-w-button p-1 text-white backdrop-blur-sm rounded-full"
         :class="[
             type === 'primary'
-                ? 'bg-primary/25 hover:bg-primary/50 border border-primary/25'
+                ? 'bg-primary/5 hover:bg-primary/25 border border-primary/25'
                 : '',
             type === 'outline'
-                ? ' border border-white/25 hover:bg-white/50' 
+                ? ' border border-white/5 hover:bg-white/25' 
                 : '',
         ]">
         <div class="flex flex-wrap h-full w-full items-center justify-center">

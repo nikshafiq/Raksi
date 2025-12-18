@@ -10,7 +10,7 @@
         </popup-screen>
 
         <section 
-        class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
+        class="bg-local bg-center h-screen w-full bg-cover" 
         :style="{ backgroundImage: `url(${raksiCollectionBgImage})` }">
             <div class="bg-black bg-opacity-50 h-full pt-nav">
                 <div class="container mx-auto h-full flex flex-col items-center justify-center font-philosopher text-white text-center gap-2 p-2">
