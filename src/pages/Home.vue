@@ -17,8 +17,8 @@
                     <div class="flex flex-col items-center justify-center gap-1">
                         <div class="text-h3 md:text-h1 uppercase">RAKSI : The Scent of Unwritten Chapters</div>
                         <div class="mx-auto md:max-w-description text-base">
-                            Combination the story from dreams & books with the natural ingredients and establishes a luxurious, artistic tone.
-                        </div>
+                            From tales of ancient kingdoms to whispers of legendary warriors, RAKSI revives the forgotten splendor of the Malay world through luxurious artisanal perfumes — crafted with soul, memory, and locally sourced botanicals.
+                            </div>
                     </div>
                     <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
                         <ra-button routeTo="/tentang-kami" type="outline" label="More Info"/>
