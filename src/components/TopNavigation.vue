@@ -4,11 +4,12 @@
         @close="showMobileMenu=false"
     />
     <nav 
-    :class="[
-        'fixed top-0 w-full z-10 transition-all duration-300 h-nav md:h-nav-desktop text-primary font-philosopher uppercase',
-        isScrolled ? 'bg-white shadow-lg' : 'bg-transparent',
-    ]">
-        <div class="container mx-auto flex md:flex-col h-full items-center justify-between md:justify-center gap-0.5 px-1 md:p-0.5">
+    class="fixed top-0 w-full z-10 transition-all duration-300 h-nav  text-primary font-philosopher uppercase py-1 px-1">
+        <div 
+        :class="[
+            'container mx-auto flex h-full items-center justify-between md:justify-center gap-0.5 px-1 md:p-0.5 rounded-full bg-white/10 border border-white/10',
+            isScrolled ? 'backdrop-blur-md' : 'backdrop-blur-sm',
+        ]">
             <div class="md:hidden w-call">
                 <button 
                 class="flex flex-wrap w-full h-full items-center justify-center"
@@ -19,15 +20,21 @@
                     </svg>
                 </button>
             </div>
-            <div class="flex justify-center items-center">
+            <router-link
+            to="/"
+            class="flex justify-center items-center">
                 <img class="h-icon" src="@/assets/img/logo/Raksi-Logo.png">
                 <div class="text-center text-h2 uppercase">Raksi</div>
-            </div>
+            </router-link>
+            <!-- <div class="flex justify-center items-center">
+                <img class="h-icon" src="@/assets/img/logo/Raksi-Logo.png">
+                <div class="text-center text-h2 uppercase">Raksi</div>
+            </div> -->
             <div class="md:hidden w-call">
                 <!-- menu -->
             </div>
-            <div class="hidden md:flex w-full items-center justify-center text-lg gap-2">
-                <router-link
+            <div class="hidden md:flex w-full items-center justify-end text-lg gap-2">
+                <!-- <router-link
                 to="/"
                 :class="[
                     'px-0.5 py-0.25',
@@ -36,7 +43,7 @@
                     : 'hover:border-b-2'
                 ]">
                     Raksi
-                </router-link>
+                </router-link> -->
                 <router-link
                 to="/rasian"
                 :class="[
@@ -56,6 +63,16 @@
                     : 'hover:border-b-2'
                 ]">
                     Hauri Ayangan
+                </router-link>
+                <router-link
+                to="/rahasia-perindu"
+                :class="[
+                    'px-0.5 py-0.25',
+                    navActive === 'Rahasia Perindu'
+                    ? 'border-b-2'
+                    : 'hover:border-b-2'
+                ]">
+                    Rahasia Perindu
                 </router-link>
             </div>
         </div>

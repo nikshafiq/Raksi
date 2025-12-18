@@ -1,13 +1,13 @@
 <template>
     <router-link v-if="routeTo"
     :to="routeTo"
-    class="w-full md:max-w-button p-1 text-white"
+    class="w-full md:max-w-button p-1 text-white backdrop-blur-sm rounded-full"
     :class="[
         type === 'primary'
-            ? 'bg-primary hover:bg-primary-800'
+            ? 'bg-primary/25 hover:bg-primary/50 border border-primary/25'
             : '',
         type === 'outline'
-            ? ' border border-white hover:bg-primary/50' 
+            ? ' border border-white/25 hover:bg-white/50' 
             : '',
     ]">
         {{ label }}
@@ -16,26 +16,26 @@
         :href="buttonUrl" 
         target="_blank" 
         rel="noopener noreferrer"
-        class="w-full md:max-w-button p-1 text-white"
+        class="w-full md:max-w-button p-1 text-white backdrop-blur-sm rounded-full"
         :class="[
             type === 'primary'
-                ? 'bg-primary hover:bg-primary-800'
+                ? 'bg-primary/25 hover:bg-primary/50 border border-primary/25'
                 : '',
             type === 'outline'
-                ? ' border border-white hover:bg-primary/50' 
+                ? ' border border-white/25 hover:bg-white/50' 
                 : '',
         ]"
         >
         {{ label }}
     </a>
     <div v-else
-        class="w-full md:max-w-button p-1 text-white"
+        class="w-full md:max-w-button p-1 text-white backdrop-blur-sm rounded-full"
         :class="[
             type === 'primary'
-                ? 'bg-primary hover:bg-primary-800'
+                ? 'bg-primary/25 hover:bg-primary/50 border border-primary/25'
                 : '',
             type === 'outline'
-                ? ' border border-white hover:bg-primary/50' 
+                ? ' border border-white/25 hover:bg-white/50' 
                 : '',
         ]">
         <div class="flex flex-wrap h-full w-full items-center justify-center">
