@@ -20,9 +20,9 @@
                             From tales of ancient kingdoms to whispers of legendary warriors, RAKSI revives the forgotten splendor of the Malay world through luxurious artisanal perfumes — crafted with soul, memory, and locally sourced botanicals.
                             </div>
                     </div>
-                    <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
-                        <ra-button routeTo="/tentang-kami" type="outline" label="More Info"/>
-                    </div>
+                    /*<div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
+                       <ra-button routeTo="/tentang-kami" type="outline" label="More Info"/>
+                    </div>*/
                 </div>
             </div>
         </section>
