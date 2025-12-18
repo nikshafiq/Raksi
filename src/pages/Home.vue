@@ -11,7 +11,7 @@
 
         <section 
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
-        :style="{ backgroundImage: `url(${parfumBgImage})` }">
+        :style="{ backgroundImage: `url(${raksiCollectionBgImage})` }">
             <div class="bg-black bg-opacity-50 h-full pt-nav">
                 <div class="container mx-auto h-full flex flex-col items-center justify-center font-philosopher text-white text-center gap-2 p-2">
                     <div class="flex flex-col items-center justify-center gap-1">
@@ -72,17 +72,17 @@
 </template>
   
 <script>
+import raksiCollectionBgImage from '@/assets/img/bg/raksi-collection.png';
 import hauriAyanganBgImage from '@/assets/img/bg/hauri-ayangan.jpg';
 import rasianBgImage from '@/assets/img/bg/rasian.jpg';
-import parfumBgImage from '@/assets/img/bg/parfum-bg.jpg';
 
 export default {
     name: 'Home',
     data() {
         return {
+        raksiCollectionBgImage,
         hauriAyanganBgImage,
         rasianBgImage,
-        parfumBgImage,
         showPopup: true,
         }
     },
