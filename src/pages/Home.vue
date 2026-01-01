@@ -15,6 +15,8 @@
             <div class="bg-black bg-opacity-50 h-full pt-nav">
                 <div class="container mx-auto h-full flex flex-col items-center justify-center font-philosopher text-white text-center gap-2 p-2">
                     <div class="flex flex-col items-center justify-center gap-1">
+
+                        <img class="h-[128px] md:h-[200px]" src="@/assets/img/logo/Raksi-Logo.png">
                         <div class="text-h3 md:text-h1 uppercase">RAKSI</div>
                         <div class="mx-auto md:max-w-description text-base">
                             From tales of ancient kingdoms to whispers of legendary warriors, RAKSI revives the forgotten splendor of the Malay world through luxurious artisanal perfumes — crafted with soul, memory, and locally sourced botanicals.
@@ -83,7 +85,7 @@ export default {
         raksiCollectionBgImage,
         hauriAyanganBgImage,
         rasianBgImage,
-        showPopup: true,
+        showPopup: false,
         }
     },
 }
