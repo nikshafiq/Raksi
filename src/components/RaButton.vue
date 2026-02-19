@@ -1,7 +1,7 @@
 <template>
     <router-link v-if="routeTo"
     :to="routeTo"
-    class="w-full md:max-w-button p-1 text-white backdrop-blur-sm rounded-full"
+    class="w-full md:max-w-button p-1 text-primary-800 backdrop-blur-sm rounded-full"
     :class="[
         type === 'primary'
             ? 'bg-primary/5 hover:bg-primary/25 border border-primary/25'
@@ -16,7 +16,7 @@
         :href="buttonUrl" 
         target="_blank" 
         rel="noopener noreferrer"
-        class="w-full md:max-w-button p-1 text-white backdrop-blur-sm rounded-full"
+        class="w-full md:max-w-button p-1 text-primary-800 backdrop-blur-sm rounded-full"
         :class="[
             type === 'primary'
                 ? 'bg-primary/5 hover:bg-primary/25 border border-primary/25'

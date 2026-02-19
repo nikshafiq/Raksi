@@ -43,7 +43,7 @@
 </template>
   
 <script>
-import rasianBgImage from '@/assets/img/bg/rasian.jpg';
+import rasianBgImage from '@/assets/img/bg/rasian.png';
 import parfumBgImage from '@/assets/img/bg/parfum-bg.jpg';
 
 export default {

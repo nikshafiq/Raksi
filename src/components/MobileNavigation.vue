@@ -53,6 +53,16 @@
                     class="py-1">
                     Hauri Ayangan
                 </a>
+                <a 
+                    href="/rahasia-perindu" 
+                    :class="[
+                        navActive === 'Rahasia Perindu'
+                        ? 'text-primary'
+                        : 'text-black'
+                    ]"
+                    class="py-1">
+                    Rahasia Perindu
+                </a>
 
             </div>
             <div id="utility" class="flex flex-col items-center justify-center w-full px-2 py-1.25 gap-1 border-t border-primary-100">
