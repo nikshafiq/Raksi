@@ -4,10 +4,10 @@
         class="w-full bg-white font-philosopher">
             <div class="w-full flex flex-col md:flex-row pt-nav md:pt-nav-desktop bg-primary-50">
                 <div class="w-full">
-                    <img src="@/assets/img/product/rasian/rasian-001.jpg" alt="Rasian" class="max-w-full">
+                    <img src="@/assets/img/product/rasian/rasian-001.png" alt="Rasian with box side by side" class="max-w-full">
                 </div>
                 <div class="w-full">
-                    <img src="@/assets/img/product/rasian/rasian-002.jpg" alt="Rasian with Bix" class="max-w-full">
+                    <img src="@/assets/img/product/rasian/rasian-002.png" alt="Rasian" class="max-w-full">
                 </div>
                 <div class="flex flex-col w-full items-center justify-center p-2">
                     <div class="text-h2 md:text-h1 uppercase text-primary">Rasian</div>
