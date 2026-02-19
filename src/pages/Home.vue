@@ -11,19 +11,22 @@
 
         <section 
         class="bg-local bg-center h-screen w-full bg-cover" 
-        :style="{ backgroundImage: `url(${raksiCollectionBgImage})` }">
+        :style="{ backgroundImage: `url(${mainHeroBgImage})` }">
             <div class="bg-black bg-opacity-50 h-full pt-nav">
-                <div class="container mx-auto h-full flex flex-col items-center justify-center font-philosopher text-white text-center gap-2 p-2">
-                    <div class="flex flex-col items-center justify-center gap-1">
+                <div class="container mx-auto h-full flex flex-col items-center justify-start font-philosopher text-white text-center gap-2 p-2">
+                    <div class="flex flex-col h-full items-center justify-start gap-0.5 md:gap-1">
 
                         <img class="h-[128px] md:h-[200px]" src="@/assets/img/logo/Raksi-Logo.png">
                         <div class="text-h3 md:text-h1 uppercase">RAKSI</div>
+                        <div class="hidden md:flex mx-auto md:max-w-description text-base">
+                            From tales of ancient kingdoms to whispers of legendary warriors, RAKSI revives the forgotten splendor of the Malay world through luxurious artisanal perfumes — crafted with soul, memory, and locally sourced botanicals.
+                        </div>
+                    </div>
+                    <div class="md:hidden flex flex-col justify-center w-full md:flex-row gap-1">
                         <div class="mx-auto md:max-w-description text-base">
                             From tales of ancient kingdoms to whispers of legendary warriors, RAKSI revives the forgotten splendor of the Malay world through luxurious artisanal perfumes — crafted with soul, memory, and locally sourced botanicals.
-                            </div>
-                    </div>
-                    <div class="hidden flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
-                       <ra-button routeTo="/tentang-kami" type="outline" label="More Info"/>
+                        </div>
+                       <ra-button class="hidden" routeTo="/tentang-kami" type="outline" label="More Info"/>
                     </div>
                 </div>
             </div>
@@ -96,7 +99,7 @@
 </template>
   
 <script>
-import raksiCollectionBgImage from '@/assets/img/bg/raksi-collection.png';
+import mainHeroBgImage from '@/assets/img/bg/main-hero-image.png';
 import rasianBgImage from '@/assets/img/bg/rasian.png';
 import hauriAyanganBgImage from '@/assets/img/bg/hauri-ayangan.png';
 import rahasiaPerinduBgImage from '@/assets/img/bg/rahasia-perindu.png';
@@ -105,7 +108,7 @@ export default {
     name: 'Home',
     data() {
         return {
-        raksiCollectionBgImage,
+        mainHeroBgImage,
         rasianBgImage,
         hauriAyanganBgImage,
         rahasiaPerinduBgImage,
