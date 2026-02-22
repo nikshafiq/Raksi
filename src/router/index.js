@@ -5,6 +5,7 @@ import Home from '@/pages/Home.vue';
 import Rasian from '@/pages/Rasian.vue';
 import HauriAyangan from '@/pages/HauriAyangan.vue';
 import RahasiaPerindu from '@/pages/RahasiaPerindu.vue';
+import RatnaSari from '@/pages/RatnaSari.vue';
 
 import ComingSoon from '@/pages/ComingSoon.vue';
 import PageNotFound from '@/pages/PageNotFound.vue'
@@ -12,7 +13,7 @@ import PageNotFound from '@/pages/PageNotFound.vue'
 const router = createRouter({
     history: createWebHistory(
         import.meta.env.BASE_URL
-    ),
+    ), 
     routes : [
         {
             path: '/',
@@ -33,6 +34,11 @@ const router = createRouter({
             path: '/rahasia-perindu',
             component: RahasiaPerindu,
             meta: { title: 'Rahasia Perindu | Raksi'}
+        },
+        {
+            path: '/ratna-sari',
+            component: RatnaSari,
+            meta: { title: 'Ratna Sari | Raksi'}
         },
         {
             path: '/coming-soon',

@@ -63,6 +63,16 @@
                     class="py-1">
                     Rahasia Perindu
                 </a>
+                <a 
+                    href="/ratna-sari" 
+                    :class="[
+                        navActive === 'Ratna Sari'
+                        ? 'text-primary'
+                        : 'text-black'
+                    ]"
+                    class="py-1">
+                    Ratna Sari
+                </a>
 
             </div>
             <div id="utility" class="flex flex-col items-center justify-center w-full px-2 py-1.25 gap-1 border-t border-primary-100">

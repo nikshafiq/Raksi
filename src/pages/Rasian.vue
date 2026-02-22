@@ -16,7 +16,7 @@
                     <div class="text-lg font-bold mb-2">RM159.00</div>
                     <div class="w-full text-center px-2">
                         <ra-button 
-                            buttonUrl="https://vt.tiktok.com/ZSSeXJgVH/"
+                            buttonUrl="https://vt.tiktok.com/ZS9eSvJbnqHBt-qw7ZD/"
                             type="primary" 
                             label="Buy Now"/>
                     </div>

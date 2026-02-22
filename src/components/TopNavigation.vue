@@ -60,6 +60,16 @@
                 ]">
                     Rahasia Perindu
                 </router-link>
+                <router-link
+                to="/ratna-sari"
+                :class="[
+                    'px-1 py-0.25 rounded-full',
+                    navActive === 'Ratna Sari'
+                    ? 'border-b-2'
+                    : 'hover:backdrop-blur-md hover:bg-primary hover:border-white/25 hover:text-white'
+                ]">
+                    Ratna Sari
+                </router-link>
             </div>
         </div>
     </nav>

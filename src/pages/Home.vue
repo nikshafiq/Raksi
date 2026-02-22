@@ -35,6 +35,27 @@
 
         <section 
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
+        :style="{ backgroundImage: `url(${ratnaSariBgImage})` }">
+            <div class="bg-black bg-opacity-0 h-full">
+                <div class="container mx-auto h-full flex flex-col items-center justify-between font-philosopher text-primary-950 text-center p-2">
+                    <div class="flex flex-col items-center justify-center gap-1">
+                        <div class="text-h3 md:text-h1">RATNA SARI</div>
+                        <div class="mx-auto md:max-w-description text-base">A quote about a father's hopes for his child. Like a flower bud blooming in the morning, it is hoped that it will grow and bloom and brighten the atmosphere.</div>
+                    </div>
+                    <div class="flex flex-col justify-center w-full md:flex-row gap-1 uppercase">
+                        <ra-button routeTo="/ratna-sari" type="outline" label="More Info"/>
+                        <ra-button 
+                            buttonUrl="https://wa.me/60134982001?text=Hi,%20I%20am%20interested%20to%20get%20Ratna%20Sari%20from%20Raksi."
+                            type="primary" 
+                            label="Get it Now"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section 
+        class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
         :style="{ backgroundImage: `url(${rasianBgImage})` }">
             <div class="bg-black bg-opacity-0 h-full">
                 <div class="container mx-auto h-full flex flex-col items-center justify-between font-philosopher text-primary-950 text-center p-2">
@@ -100,6 +121,7 @@
   
 <script>
 import mainHeroBgImage from '@/assets/img/bg/main-hero-image.png';
+import ratnaSariBgImage from '@/assets/img/bg/ratna-sari.png';
 import rasianBgImage from '@/assets/img/bg/rasian.png';
 import hauriAyanganBgImage from '@/assets/img/bg/hauri-ayangan.png';
 import rahasiaPerinduBgImage from '@/assets/img/bg/rahasia-perindu.png';
@@ -109,6 +131,7 @@ export default {
     data() {
         return {
         mainHeroBgImage,
+        ratnaSariBgImage,
         rasianBgImage,
         hauriAyanganBgImage,
         rahasiaPerinduBgImage,
