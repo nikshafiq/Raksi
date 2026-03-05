@@ -24,6 +24,12 @@
             </div>
         </section>
 
+        <perfume-notes 
+        topNotes="Cameron Highland Rose, Geranium"
+        heartNotes="Honey, Ylang-ylang, Jasmine"
+        baseNotes="Oud Accord, Leather"
+        />
+
         <section 
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
         :style="{ backgroundImage: `url(${parfumBgImage})` }">

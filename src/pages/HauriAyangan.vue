@@ -24,6 +24,12 @@
             </div>
         </section>
 
+        <perfume-notes 
+        topNotes="Black Tea, Mango, Orange"
+        heartNotes="Tuberose, Jasmine, Caramelized Coconut Shred"
+        baseNotes="Musk, Sandalwood"
+        />
+
         <section 
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
         :style="{ backgroundImage: `url(${parfumBgImage})` }">

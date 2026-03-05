@@ -24,6 +24,12 @@
             </div>
         </section>
 
+        <perfume-notes 
+        topNotes="Lemon, Cardamom, Clove, Jamaican Allspice"
+        heartNotes="Coffee Accord, Patchouli, Benzoin Resinoid, Cedarwood, Candy Floss"
+        baseNotes="Vetiver, Vanilla Accord, Kelantan Sandalwood, Agarwood Accord"
+        />
+
         <section 
         class="bg-local bg-center h-hero-banner md:h-hero-banner-lg w-full bg-cover" 
         :style="{ backgroundImage: `url(${parfumBgImage})` }">

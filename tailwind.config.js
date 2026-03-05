@@ -85,6 +85,7 @@ export default {
       3: "3rem",
       4: "4rem",
       5: "5rem",
+      8: "8rem",
       "nav": "5rem",
       "nav-desktop": "7.5rem",
     },
